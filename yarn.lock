@@ -6,11 +6,32 @@
   version "9.6.16"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.16.tgz#a20616348c3006277d458972ae16fe3b43b24ec1"
 
+argparse@^1.0.7:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+  dependencies:
+    sprintf-js "~1.0.2"
+
+compile-template@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/compile-template/-/compile-template-0.3.1.tgz#e581a08385c792609408d448187a5eaaf334b6b0"
+
 debug@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
+
+esprima@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
+
+js-yaml@^3.6.1:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
 
 ms@2.0.0:
   version "2.0.0"
@@ -23,6 +44,18 @@ node-fetch@^2.0.0:
 sandwich-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/sandwich-stream/-/sandwich-stream-1.0.0.tgz#7830e45797b5933287f1f9b28f871907456262f2"
+
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
+telegraf-i18n@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/telegraf-i18n/-/telegraf-i18n-6.1.0.tgz#f82362f9374548b95f224a4f265af3599fb86f02"
+  dependencies:
+    compile-template "^0.3.1"
+    debug "^3.0.0"
+    js-yaml "^3.6.1"
 
 telegraf@^3.21.1:
   version "3.21.1"

@@ -1,0 +1,2 @@
+greeting: Welcome! ${username}, Nice to see you. It's the ${monthDay}th of ${month}. Do you know it4?
+checkout: This is my verdict!
